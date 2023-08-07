@@ -76,7 +76,7 @@
 
 - Change a variable - Once you initialize a variable, you can change its value by assigning(=) a different value.
 
-## Undefined vs. undeclared variables
+### Undefined vs. undeclared variables
 
 - An undefined variable is a variable that has been declared but has not been initialized with a value.
 
