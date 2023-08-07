@@ -30,7 +30,7 @@
 
 - In 1997, JavaScript 1.1 was submitted to the European Computer Manufacturers Association (ECMA) as a proposal. Technical Committee #39 (TC39) was assigned to standardize the language to make it a general-purpose, cross-platform, and vendor-neutral scripting language.
 
-  -TC39 came up with ECMA-262, a standard for defining a new scripting language named ECMAScript.
+- TC39 came up with ECMA-262, a standard for defining a new scripting language named ECMAScript.
 
 # JavaScript Syntax
 
@@ -85,3 +85,80 @@
 - Constants A constant holds a value that doesn’t change. To declare a constant, you use the const keyword. When defining a constant, you need to initialize it with a value.
 
 - Once defining a constant, you cannot change its value.
+
+# JavaScript Data Types
+
+- JavaScript has the 7 primitive data types:
+
+1. null
+2. undefined
+3. boolean
+4. number
+5. string
+6. symbol – available from ES2015
+7. bigint – available from ES2020
+
+- JavaScript is a dynamically typed language. It means that a variable doesn’t associate with a type. In other words, a variable can hold a value of different types.
+
+- To get the current type of the value that the variable stores, you use the **typeof** operator:
+
+### The undefined type
+
+- The undefined type is a primitive type that has only one value undefined. By default, when a variable is declared but not initialized, it is assigned the value of undefined.
+
+- The **typeof** operator also returns undefined when you call it on a variable that hasn’t been declared.
+
+### The null type
+
+- The null type is the second primitive data type that also has only one value null.
+
+- The typeof null returns object is a known bug in JavaScript. A proposal to fix this was proposed but rejected. The reason was the that fix would break a lot of existing sites.
+
+### The number type
+
+- JavaScript uses the number type to represent both integer and floating-point numbers.
+
+- JavaScript automatically converts a floating-point number into an integer number if the number appears to be a whole number.
+
+- The reason is that Javascript always wants to use less memory since a floating-point value uses twice as much memory as an integer value.
+
+### NaN
+
+- NaN stands for Not a Number. It is a special numeric value that indicates an invalid number.
+
+- The NaN has two special characteristics:
+
+1. Any operation with NaN returns NaN.
+2. The NaN does not equal any value, including itself.
+
+### string type
+
+- The string type In JavaScript, a string is a sequence of zero or more characters. A string literal begins and ends with either a single quote( ' ) or a double quote ( " ).
+
+- A string that begins with a double quote must end with a double quote. Likewise, a string that begins with a single quote must also end with a single quote.
+
+- JavaScript strings are immutable. This means that it cannot be modified once created. However, you can create a new string from an existing string.
+
+### boolean type
+
+- The boolean type has two literal values: _true_ and _false_ in lowercase.
+
+- JavaScript allows values of other types to be converted into boolean values of true or false.
+
+- To convert a value of another data type into a boolean value, you use the _Boolean()_ function.
+
+### The symbol type
+
+- JavaScript added a primitive type in ES6: the symbol. Different from other primitive types, the symbol type does not have a literal form.
+
+- To create a symbol, you call the Symbol function
+
+`let s1 = Symbol();`
+
+- The Symbol function creates a new unique value every time you call it.
+
+### The bigint type
+
+- The bigint type represents the whole numbers that are larger than 2^53 – 1.
+
+- To form a bigint literal number, you append the letter n at the end of the number:
