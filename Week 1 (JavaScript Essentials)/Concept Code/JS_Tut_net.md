@@ -52,8 +52,36 @@
 
 - Single-line comments A single-line comment starts with two forward-slashes characters ( // ).
 
-- Block comments A delimited comment begins with a forward slash and asterisk /_ and ends with the opposite _/
+- Block comments A delimited comment begins with a forward slash and asterisk /(_) and ends with the opposite (_)/
 
 - **Expressions** - An expression is a piece of code that evaluates to a value.
 
 - **Keywords & Reserved words** - JavaScript defines a list of reserved keywords that have specific uses. Therefore, you cannot use the reserved keywords as identifiers or property names by rules.
+
+# JavaScript Variables
+
+- A variable is a label that references a value like a number or string. Before using a variable, you need to declare it.
+
+- Declare a variable - To declare a variable, you use the let, var and const keyword followed by the variable name.
+
+- Variable has a special value undefined if you have not assigned a value to it.
+
+- JavaScript is a dynamically typed language. This means that you don’t need to specify the variable’s type in the declaration like other static typed languages.
+
+- Initialize a variable - Once you have declared a variable, you can initialize it with a value. To initialize a variable, you specify the variable name, followed by an equals sign ( = ) and a value.
+
+- JavaScript allows you to declare two or more variables using a single statement. To separate two variable declarations, you use a comma ( , ).
+
+- Since JavaScript is a dynamically typed language, you can re-assign a value of a different type to a variable. Although, it is not recommended.
+
+- Change a variable - Once you initialize a variable, you can change its value by assigning(=) a different value.
+
+## Undefined vs. undeclared variables
+
+- An undefined variable is a variable that has been declared but has not been initialized with a value.
+
+- An undeclared variable is a variable that has not been declared. If we want to accesss undeclared variable then JavaScript engine will throgh an error.
+
+- Constants A constant holds a value that doesn’t change. To declare a constant, you use the const keyword. When defining a constant, you need to initialize it with a value.
+
+- Once defining a constant, you cannot change its value.
