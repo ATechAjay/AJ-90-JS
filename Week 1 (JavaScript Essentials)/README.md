@@ -100,6 +100,8 @@ firstName = "Alex;
 // "Alex" - New value
 ```
 
+> A variable has no any data type but a value has.
+
 #### Undefined VS undeclared variables
 
 - An undefined variable is a variable that has been declared but has not been initialized with a value.
