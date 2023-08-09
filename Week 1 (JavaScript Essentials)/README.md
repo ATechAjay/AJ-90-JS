@@ -1,4 +1,4 @@
-# JavaScript-JumpStart by Ajay Yadav(ATechAjay)
+# NOTES: JavaScript-JumpStart by Ajay Yadav(ATechAjay)
 
 <details>
 
