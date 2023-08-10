@@ -95,8 +95,8 @@
 3. boolean
 4. number
 5. string
-6. symbol – available from ES2015
-7. bigint – available from ES2020
+6. symbol – ES2015
+7. bigint – ES2020
 
 - JavaScript is a dynamically typed language. It means that a variable doesn’t associate with a type. In other words, a variable can hold a value of different types.
 

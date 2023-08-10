@@ -119,6 +119,22 @@ firstName = "Alex;
 
              3. A value (eg: "Ajay")
 
+- let, var and, const are used for variables that might have new value assigned somewhere in the program.
+
+- The var keyword is almost the same as let. It also declares a variable, but in a slightly different way. It is recommended to always use the let keyword.
+
+- Variables declared using const are called _constants_. They cannot be reassigned. An attempt to do so would cause an error.
+
+- These 3 keywords introduce a new concept known as _scope_, which will be discussed later in the week.
+
+Notes:👇
+
+| Keyword | Scope  |
+| ------- | ------ |
+| var     | Global |
+| let     | Block  |
+| const   | Block  |
+
    </details>
 
    <hr>
