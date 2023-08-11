@@ -152,7 +152,7 @@ Notes:👇
 
 - To get the current type of the value that the variable stores, you use the **typeof** operator.
 
-JavaScript has the 7 primitive data types:
+#### JavaScript has the 7 primitive data types:
 
 <hr>
 <details>
