@@ -17,6 +17,10 @@
 
 # Data Types
 
+- All other types are called “primitive” because their values can contain only a single thing.(be it a string or a number or whatever).
+
+- But objects are used to store collections of data and more complex entities.
+
 - Data types A value in JavaScript is always of a certain type.
 
 - There are 7 basic data types in JavaScript.

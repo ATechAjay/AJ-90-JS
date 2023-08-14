@@ -51,7 +51,7 @@
 
 #### Variable declaration
 
-- When we first time create a variale, we declare it. This process is known as variable declaration.
+- When we first time create a Variable, we declare it. This process is known as variable declaration.
 
 - To declare a variable, we use the let, var and const keyword followed by the variable name.
 
@@ -72,13 +72,13 @@ let firstName;
 ```JavaScript
 // Variable definition
 
-let firstName = "Ajay;
+let firstName = "Ajay";
 
 // firstName - Variable Name/Identifier
 // "Ajay" - Value
 ```
 
-> Now, we can use the above defined varible in our entire program whenever we want.
+> Now, we can use the above defined Variable in our entire program whenever we want.
 
 - JavaScript is a dynamically typed language. This means that we don’t need to specify the variable’s type in the declaration.
 
@@ -88,13 +88,13 @@ let firstName = "Ajay;
 
 ```JavaScript
 // Variable definition
-let firstName = "Ajay;
+let firstName = "Ajay";
 
 // firstName - Variable Name/Identifier
 // "Ajay" - Value
 
 // re-assign
-firstName = "Alex;
+firstName = "Alex";
 
 // firstName - Variable Name/Identifier
 // "Alex" - New value
@@ -126,6 +126,8 @@ firstName = "Alex;
 - Variables declared using const are called _constants_. They cannot be reassigned. An attempt to do so would cause an error.
 
 - These 3 keywords introduce a new concept known as _scope_, which will be discussed later in the week.
+
+> 'const' declarations must be initialized.
 
 Notes:👇
 
@@ -278,4 +280,11 @@ let bigint = 5345345463246243563154324214234235n;
 </details>
 <hr>
 
+</details>
+
+<hr/>
+
+<details>
+<summary>5. Operator and its type?</summary>
+dfgdf
 </details>

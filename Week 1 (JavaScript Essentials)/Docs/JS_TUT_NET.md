@@ -159,6 +159,12 @@
 
 ### The bigint type
 
-- The bigint type represents the whole numbers that are larger than 2^53 – 1.
+- The bigint type represents the whole numbers that are larger than (2^53 – 1) and smaller than -(2^53-1).
 
 - To form a bigint literal number, you append the letter n at the end of the number:
+
+# JavaScript Operators
+
+### Arithmetic operator (+, -, \*, /)
+
+- An arithmetic operator accepts numerical values as operands and returns a single numerical value. The numerical values can be literals or variables.
