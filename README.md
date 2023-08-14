@@ -8,7 +8,8 @@
     - Variable in JS
     - Undefined VS Undeclared Variable
     - [Click Here](https://twitter.com/ATechAjay/status/1690666630420762624)
-      <hr?>
+
+<hr/>
 
 2.  - Data Types in JS
     - Null Type
