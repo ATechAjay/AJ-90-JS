@@ -20,3 +20,5 @@
     - Symbol Types
     - BigInt Types
     - [Click Here](https://twitter.com/ATechAjay/status/1691034442163458048)
+
+    <hr/>

@@ -6,6 +6,12 @@
 
 - JavaScript is a powerful programming language that can add interactivity to a website. It was invented by Brendan Eich in 1995.
 
+---
+
+---
+
+<hr>
+<hr/>
 - In web browsers, JavaScript consists of three main parts:
 
           1. Core JS: ECMAScript provides the core functionality.
@@ -162,7 +168,7 @@ Notes:👇
 
 - It forms a separate type of its own which contains only the null value.
 
-- It's a special value which represents “nothing”, “empty” or “value unknown”.
+- It's a special value that represents “nothing”, “empty” or “value unknown”.
 
 - The typeof null returns object is a known bug in JavaScript. A proposal to fix this was proposed but rejected. The reason was the that fix would break a lot of existing sites.
 
