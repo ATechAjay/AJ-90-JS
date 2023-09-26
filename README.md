@@ -1,6 +1,6 @@
 # JavaScript-JumpStart by Ajay Yadav(ATechAjay)
 
-## Week 1: Twitter Threads
+## Week 1: #AJ90JS
 
 1.  - JavaScript
     - Why JS
