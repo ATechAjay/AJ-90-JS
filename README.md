@@ -1,6 +1,6 @@
 # #AJ90JS by Ajay Yadav(ATechAjay)
 
-## [Week-1](Week_1_JavaScript_essentials): #AJ90JS
+## [Week-1: #AJ90JS](Week_1_JavaScript_essentials)
 
 1.  - JavaScript
     - Why JS
