@@ -1,4 +1,4 @@
-# #AJ90JS by Ajay Yadav(ATechAjay)
+# [#AJ90JS by Ajay Yadav(ATechAjay)](https://twitter.com/ATechAjay)
 
 ## [Week-1: #AJ90JS](Week_1_JavaScript_essentials)
 
