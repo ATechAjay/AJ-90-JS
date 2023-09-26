@@ -7,7 +7,7 @@
     - Client-side VS Server-side JS
     - Variable in JS
     - Undefined VS Undeclared Variable
-    - [Click Here](https://twitter.com/ATechAjay/status/1690666630420762624)
+    - [Twitter/X Thread](https://twitter.com/ATechAjay/status/1690666630420762624)
 
 <hr/>
 
@@ -19,12 +19,12 @@
     - String Type
     - Symbol Types
     - BigInt Types
-    - [Click Here](https://twitter.com/ATechAjay/status/1691034442163458048)
+    - [Twitter/X Thread](https://twitter.com/ATechAjay/status/1691034442163458048)
 
     <hr/>
 
 3.  - Type Conversion
     - Type Coercion
-    - [Click Here](https://twitter.com/ATechAjay/status/1691667790657405111)
+    - [Twitter/X Thread](https://twitter.com/ATechAjay/status/1691667790657405111)
 
  <hr/>
