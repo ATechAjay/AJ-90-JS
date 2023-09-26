@@ -22,14 +22,13 @@
     - BigInt Types
     - [Twitter/X Thread](https://twitter.com/ATechAjay/status/1691034442163458048)
     - [Read the doc's](<Week_1_JavaScript_essentials/01_JavaScript Docs/Data_type.md>)
-    - [Solve the questions](Week_1_JavaScript_essentials/02_Practice_questions.md/01_data_type.js)
+    - [Solve the questions](Week_1_JavaScript_essentials/02_Practice_questions/01_data_type.js)
 
     <hr/>
 
 3.  - Type Conversion
-    - Type Coercion
-    - [Twitter/X Thread](https://twitter.com/ATechAjay/status/1691667790657405111)
-    - [Read the doc's](<Week_1_JavaScript_essentials/01_JavaScript Docs/Type_conversion.md>)
-    - [Solve the questions](Week_1_JavaScript_essentials/02_Practice_questions.md/02_Type_conversion.js)
-
- <hr/>
+      - Type Coercion
+      - [Twitter/X Thread](https://twitter.com/ATechAjay/status/1691667790657405111)
+      - [Read the doc's](<Week_1_JavaScript_essentials/01_JavaScript Docs/Type_conversion.md>)
+      - [Solve the questions](Week_1_JavaScript_essentials/02_Practice_questions/02_Type_conversion.js)
+      <hr/>
