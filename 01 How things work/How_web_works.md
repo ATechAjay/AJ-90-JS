@@ -6,8 +6,7 @@ When a client device wants to access a webpage, a copy of the webpage is downloa
 
 # Clients and servers
 
-(How the internet works)[https://res.cloudinary.com/dxowsspd6/image/upload/v1694594906/Ajay%20Web%20Assets/aj_fp8jsf.png]
-
+![How the internet works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works/simple-client-server.png)
 Computers connected to the internet are called `clients` and `servers`.
 
 Clients are the typical web user's internet-connected devices and web-accessing software available on those devices, usually a web browser like Firefox or Chrome.
