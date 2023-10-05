@@ -1,4 +1,4 @@
-script# What is JavaScript?
+# What is JavaScript?
 
 A high-level definition, JavaScript is a scripting or programming language that allows you to implement complex features on web pages.
 
