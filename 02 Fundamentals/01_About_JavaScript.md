@@ -2,16 +2,16 @@
 
 A high-level definition, JavaScript is a scripting or programming language that allows you to implement complex features on web pages.
 
-Every time a web page does more than just sit there and display static information for you to look at like:
+Every time a web page does more than just sit there and display static information for you to look like:
 
-- displaying timely content updates
+- Displaying timely content updates
 - Interactive maps
 - Animated 2D/3D graphics
 - Scrolling video
 
 Then you can bet that JavaScript is probably involved.
 
-It is the third layer of the layer of standard web technologies, two of two of them are HTML and CSS.
+It is the third layer of the standard web technologies, two of them are HTML and CSS.
 
 JavaScript is a scripting language that enables you to create:
 
@@ -52,7 +52,7 @@ APIs are ready-made sets of code building blocks that allow a developer to imple
 
 - The `DOM (Document Object Model) API` allows you to manipulate HTML and CSS
 
-  - creating, removing and changing HTML
+  - Creating, removing and changing HTML
   - Dynamically applying new styles to your page, etc.
 
 - The `Geolocation API` retrieves geographical information. This is how Google Maps is able to find your location and plot it on a map.
@@ -150,19 +150,21 @@ A web page with no dynamically updating content is referred to as static. It jus
 
 JavaScript is applied to your HTML page in a similar manner to CSS. Whereas CSS uses `<link>` elements to apply external stylesheets and `<style>` elements to apply internal stylesheets to HTML.
 
-JavaScript only needs one friend in the world of HTML.That is `<script>` element.
+JavaScript only needs one friend in the world of HTML. That is `<script>` element.
 
 1. Internal JavaScript
 
-```js
-<script> // JavaScript goes here </script>
+```html
+<script>
+  // JavaScript goes here...
+</script>
 ```
 
 2. External JavaScript: What if we wanted to put our JavaScript in an external file. Here is how we can add it.
 
-```js
+```html
 <script src=" script.js " defer>
-  {" "}
+  //JavaScript goes here...
 </script>
 ```
 
@@ -179,7 +181,7 @@ function createParagraph() {
 ```
 
 ```html
-<button onclick="createParagraph ()">Click me!</button>
+<button onclick="createParagraph()">Click me!</button>
 ```
 
 Please don't do this, however. It is bad practice to pollute your HTML with JavaScript, and it is inefficient. You would have to include the `onclick="createParagraph()"` attribute on every button you want the JavaScript to apply to.
