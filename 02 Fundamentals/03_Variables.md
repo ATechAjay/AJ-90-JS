@@ -86,11 +86,11 @@ A variable definition consists of three parts:
 
 The `var` keyword is almost the same as let. It also declares a variable, but in a slightly different way. It is recommended to always use the let keyword.
 
-Variables declared using const are called _constants_. They cannot be reassigned. An attempt to do so would cause an error.
+Variables declared using const are called `constants`. They cannot be reassigned. An attempt to do so would cause an error.
 
 These 3 keywords introduce a new concept known as _scope_, which will be discussed later in the week.
 
-> 'const' declarations must be initialized.
+> `const` declarations must be initialized.
 
 Notes:👇
 
