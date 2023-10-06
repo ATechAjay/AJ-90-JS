@@ -1,18 +1,25 @@
 # What is variable
 
-Variable is the essential building block of JavaScript.
+Variable is the essential building block of JavaScript. We need operators to modify our variables.
 
-We need operators (we will discuss it later) to modify our variables.
+Without variable, a piece of code would do the exact same thing every time. But with variable, a piece of code do something different every time.
 
-Without variable, a piece of code would do the exact same thing every time.
+# What happens if there is no variable defined inside the script?
 
-But with variable, a piece of code do something different every time.
+If we didn't have variables available, we would have to ask for information about something from users every time it was needed. As you can see in the below code.
+
+```js
+buttonB.onclick = () => {
+  alert(`Hello ${prompt("What is your name?")}, nice to see you!`);
+  headingB.textContent = `Welcome ${prompt("What is your name?")}`;
+};
+```
 
 # Variable declaration
 
-When we first time create a Variable, we declare it. This process is known as variable declaration.
+When we first time create a Variable, we declare it. This process is known as `variable declaration`.
 
-To declare a variable, we use the let, var and const keyword followed by the variable name.
+To declare a variable, we use the `let`, `var` and `const` keyword followed by the variable name.
 
 ```JavaScript
 let firstName;
@@ -20,9 +27,7 @@ let firstName;
 // firstName - Variable, that is not initialized yet. So it's default value will be "undefined"
 ```
 
-> Variable has a special value "undefined" if you have not assigned a value to it.
-
-But we can also assign a value to a variable known as initialization of a variable.
+Variable has a special value `undefined` if you have not assigned a value to it. But we can also assign a value to a variable, this process is known as `initialization of a variable`.
 
 Once we have declared a variable, we can initialize it with a value. To initialize a variable, we specify the variable name, followed by an equals sign ( = ) and a value.
 
@@ -30,7 +35,6 @@ JavaScript allows us to declare two or more variables using a single statement. 
 
 ```JavaScript
 // Variable definition
-
 let firstName = "Ajay";
 
 // firstName - Variable Name/Identifier
