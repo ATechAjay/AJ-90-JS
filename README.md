@@ -1,6 +1,6 @@
 # Work in progress...
 
-## [Week-1: #AJ90JS](Week_1_JavaScript_essentials)
+<!-- ## [Week-1: #AJ90JS](Week_1_JavaScript_essentials)
 
 1.  - JavaScript
     - Why JS
@@ -31,4 +31,4 @@
     - [Twitter/X Thread](https://twitter.com/ATechAjay/status/1691667790657405111)
     - [Read the doc's](<Week_1_JavaScript_essentials/01_JavaScript Docs/03_Type_conversion.md>)
     - [Solve the questions](Week_1_JavaScript_essentials/02_Practice_questions/02_Type_conversion.js)
-    <hr/>
+    <hr/> -->
