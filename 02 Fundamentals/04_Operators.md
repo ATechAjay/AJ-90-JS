@@ -17,7 +17,7 @@ We even have different types of number systems:
 - Octal - 0 to 7, its base is 8.
 - Hexadecimal - 0–9 and then a–f, its base is 16.
 
-So we need something to play with numbers or other data types, right? In JavaScript, there is a concept of an `operator` that fulfills this requirement.
+So we need something to play with numbers or other data types, right? In JavaScript, there is a concept of an `operator` fulfills this requirement.
 
 # Operator VS Operand
 
@@ -174,7 +174,7 @@ The result of the && operator is true only if both values are true , otherwise, 
 
 # Short-circuit evaluation
 
-The && operator is short-circuited. It means that the && operator evaluates the second value only if the first one doesn’t suffice to determine the value of an expression.
+The && operator is short-circuited means that evaluates the second value only if the first one doesn’t suffice to determine the value of an expression.
 
 # The chain of && operators
 
@@ -202,7 +202,7 @@ The || operator returns false if both values evaluate to false. In case either v
 
 # The || operator is also short-circuited
 
-Similar to the && operator, the || operator is short-circuited. It means that if the first value evaluates to true , the && operator doesn’t evaluate the second one.
+Similar to the && operator, the || operator is short-circuited. It means that if the first value evaluates to true , the || operator doesn’t evaluate the second one.
 
 # The chain of || operators
 
@@ -366,6 +366,31 @@ console.log(result); // 8n
 
 ###### Summary:
 
-The exponentiation operator \*\* raises a number to the power of an exponent.
+The exponentiation operator `**` raises a number to the power of an exponent.
 
-The exponentiation operator \*\* accepts values of the type number or bigint .
+The exponentiation operator `**` accepts values of the type number or bigint .
+
+###### Demystifying the AND vs OR in Programming!
+
+```
+1. AND:
+
+For example: Ajay AND Alex
+
+So in the above sentence, I am talking about both of them without ignoring any of them. In other words, both should be true, right?
+
+In a real-world example, Ajay AND Alex are going to the market. In this sentence both are going to market, right.
+
+So in programming, the AND operator does the same things as we saw in the above example.
+
+2. OR:
+
+For example: Ajay OR Alex
+
+Now in this example, I am talking about either one of them or both of them.
+
+In a real-world example, Ajay OR Rohan are going to the market. It means either both are going or one of them is going to the market.
+
+So in programming, the OR operator does the same things as we saw in the above example.
+
+```
