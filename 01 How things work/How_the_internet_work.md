@@ -1,9 +1,3 @@
-https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work
-
-How does the Internet work?
-Summary
-The Internet is the backbone of the Web, the technical infrastructure that makes the Web possible. At its most basic, the Internet is a large network of computers which communicate all together.
-
 # History about internet
 
 It began in the `1960s` as a `US-army-funded research project`, then evolved into a public infrastructure in the `1980s` with the support of many public universities and private companies.
@@ -113,3 +107,7 @@ They are typically used to safely and securely share information with clients an
 Often their functions are similar to those provided by an intranet: information and file sharing, collaboration tools, discussion boards, etc.
 
 Both intranets and extranets run on the same kind of infrastructure as the Internet, and use the same protocols. They can therefore be accessed by authorized members from different physical locations.
+
+# Summary
+
+The Internet is the backbone of the Web, the technical infrastructure that makes the Web possible. At its most basic, the Internet is a large network of computers which communicate all together.
