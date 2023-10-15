@@ -1,7 +1,7 @@
 # What is this and that?
 
 - [How the web works](<01 How things work/How_web_works.md>)
-- [How the internet works](#)
+- [How the internet works](<01 How things work/How_the_internet_work.md>)
 
 # Fundamentals of JavaScript?
 
