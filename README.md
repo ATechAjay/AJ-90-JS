@@ -13,3 +13,5 @@
 - [Operator precedence](<02 Fundamentals/06_Operator_precedence_and_associativity.md>)
 - [Type Conversion](<02 Fundamentals/07_Type_conversion.md>)
 - [Truthy and falsy values](<02 Fundamentals/08_Truthy_Falsy_Values.md>)
+- [Equality Operators](#)
+- [Conditional statements](<02 Fundamentals/10_Conditional_or_Control_flow.md>)
