@@ -14,7 +14,29 @@ if (isEmpty(field)) {
 }
 ```
 
-Control flow means that when you read a script, you must not only read from start to finish but also look at program structure and how it affects order of execution.
+In simpler terms, control flow defines the path your program takes as it runs, which statements are executed when, and which ones may be skipped or repeated.
+
+# Control Structures
+
+Control structures are statements in our code that help us manage control flow. They provide a way to control the order in which instructions are executed based on certain conditions or criteria.
+
+There are three primary types of control structures in JavaScript:
+
+1. `Sequential Structure`: Code is executed in the order it appears, from top to bottom, without any branching or looping.
+
+2. `Selection Structure`: These are conditional statements that allow you to make decisions in your code. In JavaScript, we use `if...else` `if`, and `else` statements to control which block of code gets executed based on a condition.
+
+```js
+if (condition) {
+  // Code to execute when the condition is true
+} else {
+  // Code to execute when the condition is false
+}
+```
+
+3. `Repetition Structure`: Repetition structures, commonly known as loops, allow you to execute a block of code multiple times. JavaScript provides loop constructs like `for`, `while`, and `do...while` to control repetitive execution.
+
+[See wikipedia page](https://en.wikipedia.org/wiki/Structured_program_theorem)
 
 # Conditional
 
