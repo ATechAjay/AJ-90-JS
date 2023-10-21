@@ -133,15 +133,6 @@ You'll often see anonymous functions when a function expects to receive another 
 
 > This form of creating a function is also known as `function expression`. Unlike function declaration, function expressions are not hoisted.
 
-///////////////////////////
-///////////////////////////
-///////////////////////////
-///////////////////////////
-///////////////////////////
-///////////////////////////
-///////////////////////////
-///////////////////////////
-
 ###### Example of an anonymous function
 
 For example, let's say you want to run some code when the user types into a text box. To do this you can call the `addEventListener()` function of the text box.
