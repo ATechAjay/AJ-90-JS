@@ -42,7 +42,7 @@ Syntax explanation:
 - thisArgs: It's a new object in which we are going to use the owner object's method.
 - Arg1, Arg2, Arg3,...,ArgN: These are the arguments passed into the method of the owner object.
 
-> Functions are first-class citizens in JavaScript. That's why we can assign a function to a variable as a value but without parentheses.
+> Functions are first-class-citizens in JavaScript. That's why we can assign a function to a variable as a value but without parentheses.
 
 Such as:
 
@@ -94,12 +94,15 @@ let creator1 = {
   },
 };
 
+creator1.intro(); // Ajay Yadav is a Front-end developer.
 let creator2 = {
   name: "Gulam Anas",
   niche: "Flutter developer",
 };
 
 creator1.intro.call(creator2); //Now the "this" keyword is pointing to the "creator2" object.
+
+creator2.intro(); // Gulam Anas is a Flutter developer.
 ```
 
 # Pass an arguments to the call() method
@@ -111,7 +114,9 @@ let creator1 = {
   name: "Ajay Yadav",
   niche: "Front-end developer",
   intro(followers) {
-    console.log(`${this.name} is a ${this.niche} and he has ${followers}.`);
+    console.log(
+      `${this.name} is a ${this.niche} and he has ${followers} followers.`
+    );
   },
 };
 
@@ -167,4 +172,37 @@ let creator2 = {
 };
 
 creator1.intro.call(creator2, 6_000, "Twitter"); //Now the "this" keyword is pointing to the "creator2" object.
+```
+
+# creator1.intro(24000, "Twitter") === creatorMethod(24000, "Twitter") ?
+
+Is it both declarations are the same thing? What do you think?
+
+Well, NO...
+
+```js
+creator1.intro(24000, "Twitter"); // "this" points to the "creator1" object.
+creatorMethod(24000, "Twitter"); // But in case "this" is not pointing to anywhere, in result undefined.
+```
+
+Let's discuss more about it:
+
+```js
+creator1.intro(24000, "Twitter");
+```
+
+When you call `creator1.intro(24000, "Twitter");`, you are directly invoking the `intro` method on the `creator1` object. In this context, the `this` keyword inside the `intro` method refers to the `creator1` object, and the method executes successfully.
+
+```js
+creatorMethod(24000, "Twitter");
+```
+
+However, when you assign the `creator1.intro` method to the `creatorMethod` variable and then try to call `creatorMethod(24000, "Twitter");`, the context (the object to which this refers) is lost.
+
+In this case, `creatorMethod` is treated as a regular function, and the `this` keyword is no longer associated with any object. Therefore, the code will not work as expected because `this.name` and `this.niche` inside `creatorMethod` will not refer to any specific object, and it will result in an error.
+
+But to make the `creatorMethod` call work properly, you can use the `call()` method here as well, as you did in your `creator2` object.
+
+```js
+creatorMethod.call(creator1, 24000, "Twitter");
 ```
