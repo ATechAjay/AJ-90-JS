@@ -2,7 +2,7 @@
 
 The `call()` method invokes a method (or a function) from the owner object. An object can invoke a method that belongs to another object using the `call()` method.
 
-###### An example:
+### An example:
 
 I've created an object called `creator1`. Inside this object, there are 3 properties, and the last one is a method (function) of the object.
 
@@ -181,8 +181,10 @@ Is it both declarations are the same thing? What do you think?
 Well, NO...
 
 ```js
-creator1.intro(24000, "Twitter"); // "this" points to the "creator1" object.
+const creatorMethod = creator1.intro;
+
 creatorMethod(24000, "Twitter"); // But in case "this" is not pointing to anywhere, in result undefined.
+creator1.intro(24000, "Twitter"); // "this" points to the "creator1" object.
 ```
 
 Let's discuss more about it:
