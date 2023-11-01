@@ -181,7 +181,7 @@ Is it both declarations are the same thing? What do you think?
 Well, NO...
 
 ```js
-const creatorMethod = creator1.intro;
+const creatorMethod = creator1.intro; // Assign the method to a variable.
 
 creatorMethod(24000, "Twitter"); // But in case "this" is not pointing to anywhere, in result undefined.
 creator1.intro(24000, "Twitter"); // "this" points to the "creator1" object.
@@ -207,4 +207,36 @@ But to make the `creatorMethod` call work properly, you can use the `call()` met
 
 ```js
 creatorMethod.call(creator1, 24000, "Twitter");
+```
+
+# Seperate everything, then apply call()
+
+There is no need to put a method or function inside an object; instead, any function can be used as a method of the object.
+
+> In short, we can say that the `call()` method defines the direction of the `this` keyword.
+
+```js
+// Seperate function
+const intro = function (followers, platform) {
+  console.log(
+    `${this.name} is a ${this.niche} and he has ${followers} followers on ${platform}.`
+  );
+};
+
+// Object 1
+let creator1 = {
+  name: "Ajay Yadav",
+  niche: "Front-end developer",
+};
+
+// Object 2
+let creator2 = {
+  name: "Gulam Anas",
+  niche: "Flutter developer",
+};
+
+// Using the call(), "this" keyword is pointing to the desired object according to our needs.
+
+intro.call(creator1, 24000, "Twitter");
+intro.call(creator2, 6000, "Twitter");
 ```
